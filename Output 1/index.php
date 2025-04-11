@@ -7,7 +7,7 @@ require_once('./helpers/alert_helper.php');
 require_once('./controllers/MainController.php');
 
 // create an instance for you Controller
-$main = new MainController.php();
+$main = new MainController();
 
 require_once('./router.php');
 
